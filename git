@@ -1,0 +1,5 @@
+# show files changed in last commits
+git log --name-only
+
+# see differences on files between 2 commits
+git diff <commit sha 1> <commit sha 2> <path to file>
