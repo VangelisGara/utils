@@ -3,3 +3,6 @@ git log --name-only
 
 # see differences on files between 2 commits
 git diff <commit sha 1> <commit sha 2> <path to file>
+
+# see differences on files between 2 branches
+git diff ..master path/to/file
