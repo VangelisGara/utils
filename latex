@@ -1,0 +1,3 @@
+# How to install an external package
+Pacakges are installed on path /usr/share/texlive/texmf-dist/tex/latex
+You may have to do a ln -s in your latex editor to see the packages
