@@ -1,2 +1,5 @@
 # search for text in files contents  
 grep -r -i <text or regex> <directory>
+
+# check which is using a specific port
+lsof -n -i :80 | grep LISTEN
