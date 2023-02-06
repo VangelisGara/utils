@@ -16,7 +16,7 @@ Scenario: I wanna keep the changes coming
 when merging:
 g checkout --their .
 
-rebase anapoda:
+when rebasing (vice-versa):
 g checkout --ours .
 
 ga & gc
