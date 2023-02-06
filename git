@@ -6,3 +6,17 @@ git diff <commit sha 1> <commit sha 2> <path to file>
 
 # see differences on files between 2 branches
 git diff ..master path/to/file
+
+# rebasing/merging from master and conflicts occur
+
+ours: our changes theirs: changes coming
+
+Scenario: I wanna keep the changes coming
+
+when merging:
+g checkout --their .
+
+rebase anapoda:
+g checkout --ours .
+
+ga & gc
