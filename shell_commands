@@ -1,6 +1,8 @@
 # search for text in files contents  
 grep -r -i <text or regex> <directory>
 
+find /path/to/directory -type f -exec grep -nH "8080" {} +
+
 # check which process is using a specific port
 lsof -n -i :80 | grep LISTEN
 
