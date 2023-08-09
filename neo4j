@@ -3,3 +3,6 @@
 # create uniqueness constraint
 CREATE CONSTRAINT book_isbn
 FOR (book:Book) REQUIRE book.isbn IS UNIQUE
+
+#delete constraint
+DROP CONSTRAINT book_isbn
