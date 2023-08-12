@@ -1,4 +1,5 @@
-# show constraints;
+# show constraints 
+show constraints;
 
 # create uniqueness constraint
 CREATE CONSTRAINT book_isbn
